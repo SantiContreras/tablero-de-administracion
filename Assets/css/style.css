@@ -1,0 +1,53 @@
+:root{ 
+--primario :#B5C181;
+};
+
+body{
+	overflow: scroll; /* elimina los sobrante de la pagina*/
+	font-weight: 300; /* tamaño de la letra */
+	font-family: 'Noto';
+    color: #aaaa;
+
+}
+
+.bg-gral {
+    background-color: #000000;
+}
+
+#sidebar-container {
+
+	min-height: 150vh;
+}
+
+#sidebar-container .logo {
+
+	padding: .875rem 1.25rem;
+	color: #ffff;
+
+}
+a:hover{
+	text-decoration: none;
+	color: #F5FBFC ;
+}
+a{
+	text-decoration: none;
+	color: #f49d47;
+}
+
+
+
+#sidebar-container .menu {
+
+   width: 15rem;
+}
+
+#segundo-contenedor{
+	overflow: auto;
+	height: 100vh;
+	padding-bottom: 10rem;
+}
+
+.stat{
+	border-right: 0.1rem solid;
+}
+

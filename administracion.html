@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+
+	<title>administration board</title>
+  </head>
+  <body>
+	<div class="d-flex">
+		<div id="sidebar-container" class="bg-gral"> <!-- la clase br- es de bootstrap -->
+			<div class="logo">
+				<h4>Administration</h4>
+
+			</div>
+
+			<div class="menu">
+				<a href="" class="d-block p-3"><i class="icon ion-md-paw mr-2"></i>Principal</a>
+				<a href=""class="d-block p-3"><i class="icon ion-md-medkit mr-2"></i>supplies </a>
+				<a href=""class="d-block p-3"><i class="icon ion-md-contact mr-2"></i>employees</a>
+				<a href=""class="d-block p-3"><i class="icon ion-md-add mr-2"></i>new patient</a>
+			</div>
+		  
+		</div>
+
+		<div class="w-100">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light border">
+			 
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+
+					 <form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="enter name" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">search </button>
+				</form>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						  
+						   
+					<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Santiago contreras
+							</a>
+
+					 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Usuario</a>
+							<a class="dropdown-item" href="#">Correo</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">salir</a>
+					 </div>
+				 </li>
+				   
+			 </ul>
+			   
+			</div>
+		   </nav>
+
+
+		   <div id="segundo-contenedor">
+			   <section class="py-2">
+				   <div class="container">
+					   <div class="row">
+						   <div class="col-lg-9">
+							   <h1 class="font-weight-bold">Welcome Santiago</h1>
+							   <p class="lead text-muted">check the latest information</p>
+						   </div>
+						   <div class="col-lg-3">
+							   <button class="btn btn-outline-success w-100">download reports</button>
+						   </div>
+					   </div>
+				   </div>
+			   </section>
+
+			   <section>
+				   <div class="container">
+					   <div class="card rounded-1">
+						   <div class="card-body">
+							   <div class="row">
+								   <div class="col-lg-3 stat my-3">
+									  <div class="mx-auto">
+									  	 	<h6 class="text-muted">Insumos Stock</h6>
+									   		<h3 class="fond-weight-bold">1200</h3>
+									   		<h6 class="text-success">%0.50</h6>
+									  </div>
+								   </div>
+								   <div class="col-lg-3 stat my-3">
+									   <div class="mx-auto">
+									   		<h6 class="text-muted">Insumos Stock</h6>
+									   		<h3 class="font-weight-bold">1200</h3>
+									   		<h6 class="text-success">%0.50</h6>
+									   </div>
+								   </div>
+								   <div class="col-lg-3 stat my-3">
+									  <div class="mx-auto"> 
+									  	  	<h6 class="text-muted">Insumos Stock</h6>
+									   		<h3 class="font-weight-bold">1200</h3>
+									   		<h6 class="text-success">%0.50</h6>
+									  </div>
+								   </div>
+								   <div class="col-lg-3 my-3">
+									   <div class="mx-auto">
+									   		<h6 class="text-muted">Insumos Stock</h6>
+									  		<h3 class="font-weight-bold">1200</h3>
+									   		<h6 class="text-success">%0.50</h6>
+									   </div>
+								   </div>
+							   </div>
+						   </div>
+					   </div>
+				   </div>
+			   </section>
+
+			   <section>
+			   	<div class="container bg-grey">
+			   		<div class="row">
+			   			<div class="col-lg-9 my-3">
+			   				<div class="card rounded-0">
+			   					<div class="card-header bg-ligth">
+			   						<h6 class="fond-weight-bold mb-0">numbers of attentions</h6>
+			   					</div>
+
+			   					<div class="card-body">
+			   						<canvas id="myChart"></canvas>
+			   					</div>
+			   				</div>
+			   			</div>
+			   			<div class="col-lg-3 my-3">
+			   				<div class="card rounded-0">
+			   					<div class="card-header rounded-0 bg-ligth">
+			   						<h6 class="fond-weight-bold">recent sales </h6>
+
+			   					</div>
+
+			   					<div class="card-body">
+			   						<div class="d-flex borde-botton py-2">
+			   							<div class=" d-flex mr-3">
+			   								<h2 class="mb-0"><i class="icon ion-md-pricetag"></i></h2>
+			   						    </div>
+
+			   							<div>
+			   								<h6 class="d-inline-block mr-3">$300</h6><span class="badge badge-success">Discount</span>
+			   								<small class="d-block text-muted">Drugs</small>
+			   							</div>
+			   						</div>
+
+			   						<div class="d-flex borde-botton py-2">
+			   							<div class=" d-flex mr-3">
+			   								<h2 class="mb-0"><i class="icon ion-md-pricetag"></i></h2>
+			   						    </div>
+
+			   							<div>
+			   								<h6 class="d-inline-block mr-3">$300</h6><span class="badge badge-success">Discount</span>
+			   								<small class="d-block text-muted">Drugs</small>
+			   							</div>
+			   						</div>
+
+			   						<div class="d-flex borde-botton py-2">
+			   							<div class=" d-flex mr-3">
+			   								<h2 class="mb-0"><i class="icon ion-md-pricetag"></i></h2>
+			   						    </div>
+
+			   							<div>
+			   								<h6 class="d-inline-block mr-3">$300</h6><span class="badge badge-success">Discount</span>
+			   								<small class="d-block text-muted">Drugs</small>
+			   							</div>
+			   						</div>
+
+			   						<div class="d-flex borde-botton py-2">
+			   							<div class=" d-flex mr-3">
+			   								<h2 class="mb-0"><i class="icon ion-md-pricetag"></i></h2>
+			   						    </div>
+
+			   							<div>
+			   								<h6 class="d-inline-block mr-3">$300</h6><span class="badge badge-success">Discount</span>
+			   								<small class="d-block text-muted">Drugs</small>
+			   							</div>
+			   						</div>
+			   						<button class="btn btn-primary w-100">View all</button>
+
+			   				    </div>
+			   			    </div>
+			   		    </div>
+			   	</div>
+			   </section>
+		   </div>
+		</div>
+ 
+			
+	</div>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Optional JavaScript; choose one of the two! -->
+
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+	 Option 2: jQuery, Popper.js, and Bootstrap JS
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script type="text/javascript">
+		var ctx = document.getElementById('myChart').getContext('2d');
+		var chart = new Chart(ctx, {
+    // The type of chart we want to create
+   		 type: 'bar',
+
+    // The data for our dataset
+    		data: {
+        		labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        		datasets: [{
+            	label: 'My First dataset',
+            	backgroundColor: 'rgb(255, 99, 132)',
+            	borderColor: 'rgb(255, 99, 132)',
+            	data: [0, 10, 5, 2, 20, 30, 45]
+        }]
+    			},
+
+    // Configuration options go here
+    			options: {}
+			});
+	</script>
+	
+  </body>
+</html>
